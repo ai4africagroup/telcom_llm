@@ -25,7 +25,7 @@ This repository contains the implementation and training code for our Phi-2 mode
 The Phi-2 model training is managed through multiple scripts to facilitate different aspects of the fine-tuning process.
 
 - **train.py**: The primary training file for the Phi-2 model using QLoRA.
-- **misc/custom_finetuning.py**: A custom fine-tuning script developed from scratch utilizing LORA.
+- **misc/custom_finetuning.py**: We have written our own custom fine-tuning script for developed from scratch (LORA).
 - **train_rough.py**: A rough version of the trainer code for preliminary tests and experiments.
 
 ### Retrieval-Augmented Generation (RAG)
