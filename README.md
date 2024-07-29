@@ -55,6 +55,6 @@ The RAG implementation involves several custom-built scripts designed to handle 
 To get started with this repository, clone it to your local machine and install the required dependencies.
 
 ```bash
-git clone https://github.com/yourusername/phi-2-falcon-7b.git
+git clone https://github.com/ai4africagroup/telcom_llm.git
 cd phi-2-falcon-7b
 pip install -r requirements.txt
