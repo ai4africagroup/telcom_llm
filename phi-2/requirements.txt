@@ -1,0 +1,13 @@
+torch
+torchvision
+torchaudio
+datasets
+evaluate
+gdown
+python-docx
+peft
+pandas
+scikit-learn
+sentence-transformers
+transformers
+bm25s
