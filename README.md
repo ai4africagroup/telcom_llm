@@ -1,8 +1,10 @@
+
+
 # Phi-2 and Falcon-7B Models
 
 ## Overview
 
-This repository contains the implementation and training code for our Phi-2 model and inference code for the Falcon-7B model. The Phi-2 model is fine-tuned using QLoRA and a custom fine-tuning script, while Falcon-7B is employed for efficient inference. The repository is organized into training, inference, and utility scripts for streamlined usage and development.
+This repository contains the implementation and training code for our Phi-2 model and inference code for the Falcon-7B model. The Phi-2 model is fine-tuned using the QMOS framework through a custom fine-tuning script, while Falcon-7B is not finetuned. The repository is organized into training, inference, and utility scripts for streamlined usage and development.
 
 ## Table of Contents
 
@@ -18,13 +20,14 @@ This repository contains the implementation and training code for our Phi-2 mode
 6. [Contributing](#contributing)
 7. [License](#license)
 
-## Phi-2 Model
+## QMOS: Phi-2 Model
 
 ### Training
 
 The Phi-2 model training is managed through multiple scripts to facilitate different aspects of the fine-tuning process.
 
-- **train.py**: The primary training file for the Phi-2 model using QLoRA.
+- **train.ipynb**: QMOS training: The primary training file for the Phi-2 model using LoRA.
+- **train.py**: QLoRa: training file for the Phi-2 model using QLoRA without QMOS.
 - **misc/custom_finetuning.py**: We have written our own custom fine-tuning script for developed from scratch (LORA).
 - **train_rough.py**: A rough version of the trainer code for preliminary tests and experiments.
 
@@ -38,7 +41,7 @@ The RAG implementation involves several custom-built scripts designed to handle 
 
 ### Inference
 
-- **Phi_inference.py**: Custom inference code for the Phi-2 model.
+- **inference_custom.ipynb**: QMOS inference code for the Phi-2 model.
 
 ## Falcon-7B Model
 
